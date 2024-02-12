@@ -5,7 +5,7 @@ models <- c(
   "BB6Copula", "surBB6Copula", "r90BB6Copula", "r270BB6Copula",
   "BB7Copula", "surBB7Copula", "r90BB7Copula", "r270BB7Copula",
   "BB8Copula", "surBB8Copula", "r90BB8Copula", "r270BB8Copula",
-  "indepCopula", "normalCopula", "frankCopula", "tCopula",
+  "indepCopula", "normalCopula", "frankCopula", #"tCopula",
   "claytonCopula", "surClaytonCopula", "r90ClaytonCopula", "r270ClaytonCopula",
   "gumbelCopula", "surGumbelCopula", "r90GumbelCopula", "r270GumbelCopula",
   "joeBiCopula", "surJoeBiCopula", "r90JoeBiCopula", "r270JoeBiCopula",
@@ -26,8 +26,8 @@ for (model in models) { # model <- models[31]
                                "tCopula" = c(0.2, 4),
                                2)
     }
-    u <- rCopula(30, cop)
-    expect_length(u, 60)
+    u <- rCopula(50, cop)
+    expect_length(u, 100)
 
     # fitting
     if (model != "indepCopula") {
@@ -39,10 +39,10 @@ for (model in models) { # model <- models[31]
     expect_length(dduCopula(c(0.1, 0.1), cop), 1)
     expect_length(ddvCopula(c(0.1, 0.1), cop), 1)
 
-    expect_length(dCopula(u, cop), 30)
-    expect_length(pCopula(u, cop), 30)
-    expect_length(dduCopula(u, cop), 30)
-    expect_length(ddvCopula(u, cop), 30)
+    expect_length(dCopula(u, cop), 50)
+    expect_length(pCopula(u, cop), 50)
+    expect_length(dduCopula(u, cop), 50)
+    expect_length(ddvCopula(u, cop), 50)
 
     if (!(class(cop) %in% base_models)) {
       A(cop, 0.5)

@@ -1,4 +1,4 @@
-fc808500baf9fb813c7cc77c3af388b3 *DESCRIPTION
+6ad83ecd418c17d1ab8ef168c440d206 *DESCRIPTION
 dc40e3451cdc7e4c9cf91cbb48618d4c *NAMESPACE
 29dee093f44bfc62fbc66b46eabc7ae1 *NEWS.md
 f1f2548870e4fa575654c4353c4cf6f9 *R/0_wrappers.R
@@ -44,5 +44,5 @@ f02bda9aa5f4f6d14943f806af5b32ff *man/vineCopula.Rd
 5b5138d28c2047c5394e04ff0995d294 *src/Tawn2.c
 0622a97a2aaa3c342f09636052c2d7f5 *tests/spelling.R
 6b8f425411fe9ba37d985f3c82428e35 *tests/testthat.R
-57faf90dee7225634c3be8a52858aefb *tests/testthat/test-bivariate-models.R
+12d1baaaa0ce5dbf326f2c4a077b9a9d *tests/testthat/test-bivariate-models.R
 a60baec71e1a37a540b8a34aaee76bf4 *tests/testthat/test-vine-models.R
