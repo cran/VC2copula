@@ -1,4 +1,4 @@
-6ad83ecd418c17d1ab8ef168c440d206 *DESCRIPTION
+cd092f5724152623a6cf6b607f83e0be *DESCRIPTION
 dc40e3451cdc7e4c9cf91cbb48618d4c *NAMESPACE
 29dee093f44bfc62fbc66b46eabc7ae1 *NEWS.md
 f1f2548870e4fa575654c4353c4cf6f9 *R/0_wrappers.R
@@ -14,8 +14,8 @@ d0c7c1f7ae4a42faf67d0aa97aecd1ad *R/surClaytonCopula.R
 f157731ddf0417338ac7b602c1d8e51a *R/surGumbelCopula.R
 e06f1e987df8b8e7a32e1a11443219cb *R/tawnT1Copula.R
 f95def96fc96741cd76ba979c77370e8 *R/tawnT2Copula.R
-c08d190d4483b0dcedfb9730fcb17ac2 *R/vineCopulas.R
-e4a2c9345759ca1cfef5162402cd7cc9 *README.md
+8bfeb766d15bbc8afc8b5910a7aa67f2 *R/vineCopulas.R
+a996375343ba4dfa82add99497e12461 *README.md
 878c0d8149d2e626672f39578d4ada8a *inst/WORDLIST
 9314fa5ebbb85ca0f9049e88aa92aa73 *man/BB1Copula-class.Rd
 b6d7f77f73f5971e11f45db7b4853abd *man/BB1Copula.Rd
@@ -42,7 +42,6 @@ ea9afbea568268f3c8b2ce06abac0209 *man/surGumbelCopula.Rd
 fb245c34c33c5a4ea53ebc9bed244fb4 *man/vineCopula-class.Rd
 f02bda9aa5f4f6d14943f806af5b32ff *man/vineCopula.Rd
 5b5138d28c2047c5394e04ff0995d294 *src/Tawn2.c
-0622a97a2aaa3c342f09636052c2d7f5 *tests/spelling.R
 6b8f425411fe9ba37d985f3c82428e35 *tests/testthat.R
-12d1baaaa0ce5dbf326f2c4a077b9a9d *tests/testthat/test-bivariate-models.R
+f7ce03e55f79ae1075933cc065b40392 *tests/testthat/test-bivariate-models.R
 a60baec71e1a37a540b8a34aaee76bf4 *tests/testthat/test-vine-models.R
